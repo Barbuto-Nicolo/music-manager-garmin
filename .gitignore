@@ -1,0 +1,20 @@
+# secrets
+keys/
+*.pem
+*.der
+*.jks
+*.keystore
+local.properties
+
+# build output
+build/
+android/.gradle/
+android/app/build/
+dist/*.bak
+
+# OS / IDE
+.DS_Store
+.idea/
+
+# release binaries (attach to GitHub Releases instead)
+dist/
